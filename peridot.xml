@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="blazeee" 
+            fetch="git@github.com:Blazing-Forest" 
+            revision="16-qpr2" 
+            clone-depth="1" />
+
+    <!-- Poco F6 / Redmi Turbo 3 (peridot) Device Manifest -->
+
+    <!-- device -->
+    <project name="device_xiaomi_peridot" path="device/xiaomi/peridot" remote="blazeee" />
+    <project name="device_xiaomi_peridot-miuicamera" path="device/xiaomi/peridot-miuicamera" remote="blazeee" />
+
+    <!-- hardware -->
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="blazeee" />
+
+    <!--kernel-->
+    <project name="kernel_xiaomi_sm8635" path="kernel/xiaomi/sm8635" remote="blazeee" />
+    <project name="kernel_xiaomi_sm8635-modules" path="kernel/xiaomi/sm8635-modules" remote="blazeee" />
+    <project name="kernel_xiaomi_sm8635-devicetrees" path="kernel/xiaomi/sm8635-devicetrees" remote="blazeee" />
+
+    <!-- packages -->
+    <project name="packages_apps_DolbyAtoms" path="packages/apps/DolbyAtoms" remote="blazeee" />
+
+    <!--vendor-->
+    <project name="vendor_xiaomi_peridot" path="vendor/xiaomi/peridot" remote="blazeee" />
+    <project name="vendor_xiaomi_peridot-miuicamera" path="vendor/xiaomi/peridot-miuicamera" remote="blazeee" />
+
+</manifest>
